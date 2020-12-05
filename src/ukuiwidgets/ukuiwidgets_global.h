@@ -1,0 +1,12 @@
+#ifndef UKUIWIDGETS_GLOBAL_H
+#define UKUIWIDGETS_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(UKUIWIDGETS_LIBRARY)
+#  define UKUIWIDGETS_EXPORT Q_DECL_EXPORT
+#else
+#  define UKUIWIDGETS_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // UKUIWIDGETS_GLOBAL_H
